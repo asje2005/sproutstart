@@ -32,10 +32,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
     word-wrap: normal;
     max-width: 1150px;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid lightgreen;
     border-radius: 10px;
   }
   p {
@@ -45,19 +46,24 @@
     text-align: center;
     font-size: 24px;
   }
-  .needs{
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .column{
+    column-count: 3;
+    column-gap: 10em;
+    column-width: auto;
+    column-rule: 1px solid lightgreen;
+  }
+  dt{
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
-  li{
-    text-align: center;
-    font-size: 20px;
-    text-decoration: dotted;
+  #calendar{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  footer {
+  footer{
+    margin-top: 20px;
+    padding-top: 20px;
     background-color: lightgreen;
     padding: 20px;
     text-align: center;
@@ -66,5 +72,6 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     text-decoration: none;
-
+    display: inline-flex;
+    padding: 10px;
   }
